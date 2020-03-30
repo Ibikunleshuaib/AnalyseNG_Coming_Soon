@@ -36,7 +36,7 @@
           }
 
           if(Date.parse(deadline) < Date.parse(timeNow)) {
-            var deadline = new Date(Date.parse(new Date()) + endDate * 10 * 60 * 60 * 1000 + endHours * 60 * 60 * 1000); 
+            var deadline = new Date(Date.parse(new Date()) + endDate * 10 * 1.3 * 60 * 1000 + endHours * 60 * 60 * 1000); 
           }
           
           
